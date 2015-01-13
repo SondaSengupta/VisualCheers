@@ -40,7 +40,7 @@ namespace cheers
 
             //Step 3: Ask user "When is your birthday". User will type in "8/25". Your birthday is in 28 days"
             //Step 4: If they have birthday recently. You say "Aw shucks, I missed it. Your birthday was 28 days ago."
-
+            //Step 5: Profit!
             System.Console.WriteLine("When is your birthday? Please give it to me in mm/dd/year");
             string birthday = System.Console.ReadLine();
             DateTime date = Convert.ToDateTime(birthday);
